@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from pytesseract import image_to_string
 import os
-os.environ['TESSDATA_PREFIX'] = r'/app/models'
+os.environ['TESSDATA_PREFIX'] = r'/absolute/path/to/parent/directory'
 
 # config settings
 RESIZE_WIDTH = 712
