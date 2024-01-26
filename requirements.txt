@@ -1,0 +1,6 @@
+gunicorn
+Flask
+Flask-Cors
+numpy
+pytesseract
+opencv-python
