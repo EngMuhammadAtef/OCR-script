@@ -6,7 +6,7 @@ from scripts import OCR_script
 
 # initial flask object
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 # extract nationalId API
 @app.route('/extract_nationalId', methods=['POST'])
