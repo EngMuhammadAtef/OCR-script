@@ -8,7 +8,7 @@ from scripts import OCR_script
 app = Flask(__name__)
 
 # Enable CORS for all routes or a specific route
-CORS(app, resources={r"/extract_nationalId": {"origins": "https://opi-se.vercel.app"}})
+CORS(app, resources={r"/extract_nationalId": {"origins": "*"}})
 
 # extract nationalId API
 @app.route('/extract_nationalId', methods=['POST'])
